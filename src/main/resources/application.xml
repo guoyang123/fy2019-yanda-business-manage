@@ -34,6 +34,7 @@
 
     </bean>
 
+
     <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
         <constructor-arg ref="sqlSessionFactory" index="0"></constructor-arg>
     </bean>

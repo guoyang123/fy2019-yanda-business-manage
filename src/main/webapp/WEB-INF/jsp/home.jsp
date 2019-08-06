@@ -9,10 +9,14 @@
 <html>
 <head>
     <title>主页</title>
+
 </head>
 <body>
 
-<h1>欢迎,${userinfo.username}登录</h1>
+<h1>欢迎,${user.username}登录</h1>
+
+
+
 
 </body>
 </html>
